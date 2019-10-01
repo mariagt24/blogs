@@ -1,0 +1,65 @@
+
+/*.img{height:60px;}*/
+
+.fondo{
+  background-image: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+.contenedor-blog{
+  min-height: 200px;
+}
+
+.contenedor-logo{
+ margin-top: 1rem;
+  min-height: 100px;
+}
+
+.contenedor-botones{
+  margin-top: 1rem;
+  min-height: 50px;
+  font-size: 14px;
+}
+
+.titulo{margin-top: 4rem;
+}
+
+.responsive-img{
+  min-height: 60px;
+  }
+  
+/*div[class*="contenedor-fotos"]{
+  border: solid 1px blue;
+  min-height: 50rem;
+  }*/
+
+.contenedor-redesyfotos{
+  min-height: 200px;
+}
+
+.columna-redes{min-height: 25rem;
+
+ }
+
+.columna-entrada{
+  min-height: 100px;
+}
+
+.columna-autor{
+  min-height: 200px;
+}
+
+.contenedor-mensajes{
+  min-height: 100px;
+}
+
+
+.mifoto{width:50px;
+    height: 50px;}
+
+.input-field label{
+  color:white}
+  

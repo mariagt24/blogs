@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <!--Importar la fuente de los íconos de Google-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Importar la hojas de estilos de materialize css-->
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link rel="stylesheet" type="text/css" href="css/estilos_personalizados.css">
+    <title>Contenedores y sistema de rejilla</title>
+  </head>
+  <body>
+    <div class="row">
+     <div class="encabezado col s12 blue darken-2">
+         <img class="logo responsive-img" src="img/aura.jpg">
+     </div>
+
+     <div class="columna-grupos col s2 m2 l2 green accent-1"><span>columna para grupos</span>
+     </div>
+     <div class="columna-principal col s10 m7 l7 white z-depth-1 pull-s2" >
+       <div class="row">
+         <div class="columna-publi col s12 m12 l8 white"> 
+         <div class="card contenedor-write-publi"></div>
+
+         <div class="card contenedor-publi">
+         <div class="row contenido-publi">
+         <div class="col s12">
+           <video src="media/vid1.mov" autoplay controls class="responsive-video media-element"></video>
+         </div>
+         </div>
+         </div>
+
+         <div class="card contenedor-publi">
+         <div class="row contenido-publi">
+         <div class="col s12">
+           <p class="flow-text"> Este es un ejemplo de texto adatativo para el ejerciocio de la leccion
+           </p>
+           <blockquote>
+          Este esun texto en es una prueba de cita textual con formato Materialize.
+        </blockquote>
+         </div>
+         </div>
+         </div>
+              
+         </div>
+
+         <div class="columna-noticias col l3 offset-l1 white hide-on-med-and-down">
+          <div class="contenedor-noticias amber lighten-4">
+            <h5>Ultimas de Noticias</h5>
+            <p class="truncate">Primera noticia del ejercicio</p>
+            <img src="img/img2.jpg" class="responsive-img"/>
+            <p class="truncate">
+              -Nueva versión de JavaScript
+            </p>
+            <img src="img/img3.jpg" class="responsive-img"/>
+            <p class="truncate">
+              -Se aproxima la conferencia de desarrollo web.
+            </p>
+            <img src="img/img4.jpg" class="responsive-img"/>
+          </div>
+          </div>
+        </div> 
+      </div>
+
+      <div class="columna-chat col m3 l3 hide-on-small-only white">
+       <div class="row"> 
+        <div class="s12 col blue-grey bloque-feed">
+            <h5>Bloque para las actividades recientes</h5>
+          </div>
+          <div class="s12 col grey lighten-1 bloque-chat">
+            <h5>Bloque para el chat</h5>
+          </div>
+      </div>
+        </div>
+</div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+</html>

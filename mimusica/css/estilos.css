@@ -1,0 +1,72 @@
+/* Clase para darle estilos al body */
+.mi-blog {width: 100%;
+  height: 100%;
+  background: grey;
+  border:solid 1px black; 
+  padding: 0 15px;
+}
+
+.logo-cabecera{
+  background: white;
+  border:solid 1px yellow;
+  min-height: 100px;}
+
+.logo{background-color: blue;
+  padding: 0px;
+}
+
+.logo-img{width:200px;
+  }
+
+
+
+.redes-sociales{
+  background-color: green;
+  min-height: 100px;
+  padding: 0px;
+  }
+
+.imagenes{min-height:50px;
+        background-color: yellow;
+        padding-bottom: 0px;
+        margin-top: 50px;
+        border:solid 1px blue;
+      }
+
+ .img-social {
+  width:30px;
+  height: 30px;
+  padding:0px;
+  }
+
+/* Clase para darle estilos a la barra de navegacion */
+
+.nav {
+   border:solid 1px red;
+   background-color: pink;
+   }
+
+
+/* Clase para darle estilos al contenedor principal */
+.container{
+  border:solid 1px red;
+  min-height: 100px;
+}
+/* Clase para darle estilos al contenedor del blig */
+
+.contenido-blog{height:400px;
+  background-color: #00678E;
+  border:solid 1px black;
+}
+.buscador-blog{height:400px;
+  background-color: green;
+  border:solid 1px black;
+}
+
+
+/* Clase para darle estilos a la etiqueta contenedora de los encabezados/titulos */
+
+/* Clase para darle estilos a las filas y/o a columas que contienes filas */
+
+
+/* Clase para darle estilos a las columnas*/
